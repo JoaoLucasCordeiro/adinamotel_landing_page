@@ -34,7 +34,7 @@ const AdultsDropdown = () => {
               as="li"
               key={index}
               className='border-b last-of-type:border-b-0 h-12
-             hover:bg-accent hover:text-white w-full text-center
+             hover:bg-accent hover:text-white w-full flex items-center justify-center
               cursor-pointer'>
               {li.name}
             </Menu.Item>
