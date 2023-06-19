@@ -22,7 +22,7 @@ const Header = () => {
             (<img src={LogoWhite} className='w-[160px]' />)}
         </a>
 
-        <nav className={`${header ? 'text-primary' : 'text-white'} uppercase flex items-center gap-x-4 font-tertiary tracking-[3px] text-[15px] lg:gap-x-8`}>
+        <nav className={`${header ? 'text-primary' : 'text-white'} uppercase flex items-center gap-x-2 font-tertiary tracking-[3px] text-[15px] lg:gap-x-8`}>
             <a href="" className='hover:text-accent transition'>Início</a>
             <a href="" className='hover:text-accent transition'>Quartos</a>
             <a href="" className='hover:text-accent transition'>Restaurante</a>
